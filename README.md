@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## 하기 앞서
+``` bash
+git clone https://github.com/yg3988/react-ts.git
+```
+
+[https://react.vlpt.us/](https://react.vlpt.us/)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
