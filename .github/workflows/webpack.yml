@@ -26,4 +26,9 @@ jobs:
       run: |
         npm clean-install
         npm run build
-        echo -e `env.build_dir`
+        echo -e "`ls -la`\n"
+    - name: Share artifact
+      uses: actions/upload-artifact@v1
+      with:
+        name: builded
+        path: build
