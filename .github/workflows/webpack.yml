@@ -28,7 +28,7 @@ jobs:
         npm run build
         echo -e "`ls -la`\n"
     - name: Share artifact
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: builded
         path: build
