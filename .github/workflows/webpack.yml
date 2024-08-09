@@ -25,5 +25,4 @@ jobs:
     - name: Build
       run: |
         npm clean-install
-        echo -e "`ls -la`\n"
-        cat package.json
+        npm run build
