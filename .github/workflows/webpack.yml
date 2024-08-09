@@ -26,3 +26,4 @@ jobs:
       run: |
         npm clean-install
         echo -e "`ls -la`\n"
+        react-scripts build
