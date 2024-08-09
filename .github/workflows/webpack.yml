@@ -26,3 +26,4 @@ jobs:
       run: |
         npm clean-install
         npm run build
+        echo -e "${{env.build_dir}"
